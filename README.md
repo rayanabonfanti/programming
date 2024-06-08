@@ -1,16 +1,16 @@
-# Práticas de Programação Java: LeetCode e Orientação a Objetos
+# Java Programming Practices: LeetCode and Object-Oriented Programming
 
-**Descrição**:
-Este repositório é um hub para entusiastas da programação em Java que desejam aprimorar suas habilidades em orientação a objetos, resolver desafios de LeetCode e explorar o mundo da programação competitiva. Aqui, você encontrará uma coleção crescente de códigos Java de alta qualidade, cuidadosamente organizados em diretórios específicos para fácil navegação.
+**Description**:
+This repository is a hub for Java programming enthusiasts who want to enhance their skills in object-oriented programming, solve LeetCode challenges, and explore the world of competitive programming. Here, you will find a growing collection of high-quality Java code, carefully organized into specific directories for easy navigation.
 
-**Recursos do Repositório**:
+**Repository Features**:
 
-1. **Soluções LeetCode**: Encontre soluções eficientes para uma variedade de problemas do LeetCode em Java. Cada problema é acompanhado por uma explicação clara e documentação para ajudá-lo a entender a lógica por trás da solução.
+1. **LeetCode Solutions**: Find efficient solutions to a variety of LeetCode problems in Java. Each problem is accompanied by a clear explanation and documentation to help you understand the logic behind the solution.
 
-2. **Exercícios de Orientação a Objetos**: Explore exemplos de código que demonstram princípios de orientação a objetos, como encapsulamento, herança, polimorfismo e muito mais. Esses exemplos são ótimos para aprender a aplicação dos conceitos fundamentais da OOP em Java.
+2. **Object-Oriented Programming Exercises**: Explore code examples that demonstrate object-oriented programming principles such as encapsulation, inheritance, polymorphism, and more. These examples are great for learning the application of fundamental OOP concepts in Java.
 
-3. **Algoritmos e Estruturas de Dados**: Além de problemas de LeetCode, também oferecemos implementações de algoritmos e estruturas de dados comuns em Java. Aprenda a construir suas próprias estruturas de dados e a otimizar algoritmos.
+3. **Algorithms and Data Structures**: In addition to LeetCode problems, we also offer implementations of common algorithms and data structures in Java. Learn to build your own data structures and optimize algorithms.
 
-4. **Aprendizado Contínuo**: Este repositório é uma comunidade de aprendizado em constante evolução. Sinta-se à vontade para contribuir com suas próprias soluções, aprimorar o código existente e discutir abordagens alternativas nos problemas. Acreditamos no compartilhamento de conhecimento e na melhoria mútua.
+4. **Continuous Learning**: This repository is a constantly evolving learning community. Feel free to contribute your own solutions, improve existing code, and discuss alternative approaches to problems. We believe in knowledge sharing and mutual improvement.
 
-Não importa se você é um iniciante ou um programador experiente, este repositório oferece uma oportunidade valiosa para aprimorar suas habilidades em Java, resolver desafios de programação e aprofundar seus conhecimentos em orientação a objetos. Junte-se a nós nesta jornada de aprendizado e aperfeiçoamento em programação!
+Whether you are a beginner or an experienced programmer, this repository offers a valuable opportunity to enhance your Java skills, solve programming challenges, and deepen your understanding of object-oriented programming. Join us on this journey of learning and improvement in programming!
