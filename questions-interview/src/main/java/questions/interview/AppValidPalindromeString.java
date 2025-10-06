@@ -2,7 +2,7 @@ package questions.interview;
 
 import questions.interview.leetcodes.ValidPalindromeString;
 
-public class Application {
+public class AppValidPalindromeString {
 	public static void main(String[] args) {
 
 		/*
