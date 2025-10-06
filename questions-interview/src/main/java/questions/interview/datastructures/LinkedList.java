@@ -12,6 +12,38 @@ public class LinkedList {
         this.length = 1;
     }
 
+    public Node removeLast(){
+        if (this.length == 0) {
+            return null;
+        }
+        Node temp = this.head;
+        Node pre = this.head;
+        while(temp.next != null){
+            pre = temp;
+            temp = temp.next;
+        }
+        tail = pre;
+        tail.next = null;
+        this.length--;
+        if(this.length == 0){
+            this.head = null;
+            this.tail = null;
+        }
+        return temp;
+    }
+
+    public void append(int value){
+        Node newNode = new Node(value);
+        if(this.length == 0){
+            this.head = newNode;
+            this.tail = newNode;
+        } else {
+            this.tail.next = newNode;
+            this.tail = newNode;
+        }
+        this.length++;
+    }
+
     public void printList(){
         Node temp = this.head;
         while(temp != null){
@@ -33,7 +65,7 @@ public class LinkedList {
     }
 
     public class Node {
-        int value;
+        public int value;
         Node next;
 
         public Node(int value){
