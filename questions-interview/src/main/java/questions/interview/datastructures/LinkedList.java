@@ -12,6 +12,31 @@ public class LinkedList {
         this.length = 1;
     }
 
+    public Node removeFirst(){
+        if(this.length == 0){
+            return null;
+        }
+        Node temp = this.head;
+        this.head = this.head.next;
+        temp.next = null;
+        this.length--;
+        if(this.length == 0){
+            this.tail = null;
+        }
+        return temp;
+    }
+
+    public void prepend(int value){
+        Node newNode = new Node(value);
+        if(this.length == 0){
+            this.tail = newNode;
+        } else {
+            newNode.next = this.head;
+        }
+        this.head = newNode;
+        this.length++;
+    }
+
     public Node removeLast(){
         if (this.length == 0) {
             return null;
