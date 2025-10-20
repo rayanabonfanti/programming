@@ -57,7 +57,7 @@ public class AppLinkedList {
         linkedList.append(2);
 
         linkedList.printList();
-        linkedList.insert(1,1);
+        System.out.println("Insert index 1 to 1: " + linkedList.insert(1,1) + "\n");
         linkedList.printList();
 	}
 }
