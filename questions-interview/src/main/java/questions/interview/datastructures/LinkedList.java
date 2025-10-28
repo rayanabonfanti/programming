@@ -12,6 +12,38 @@ public class LinkedList {
         this.length = 1;
     }
 
+    public void revert(){
+        Node temp = head;
+        this.head = this.tail;
+        this.tail = temp;
+        Node after;
+        Node before = null;
+        for(int i = 0; i < this.length; i++){
+            after = temp.next;
+            temp.next = before;
+            before = temp;
+            temp = after;
+        }
+    }
+
+    public Node remove(int index) {
+        if(index < 0 || index >= this.length){
+            return null;
+        }
+        if(index == 0){
+            return removeFirst();
+        }
+        if(index == this.length -1){
+            return removeLast();
+        }
+        Node prev = get(index -1);
+        Node temp = prev.next;
+        prev.next = temp.next;
+        temp.next = null;
+        this.length--;
+        return temp;
+    }
+
     public boolean insert(int index, int value){
         if(index < 0 || index > this.length){
             return false;

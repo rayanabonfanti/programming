@@ -53,11 +53,29 @@ public class AppLinkedList {
 //        System.out.println("Set index 1 to 10: " + linkedList.set(1, 10) + "\n");
 //        linkedList.printList();
 
-        LinkedList linkedList = new LinkedList(0);
+//        LinkedList linkedList = new LinkedList(0);
+//        linkedList.append(2);
+//
+//        linkedList.printList();
+//        System.out.println("Insert index 1 to 1: " + linkedList.insert(1,1) + "\n");
+//        linkedList.printList();
+
+//        LinkedList linkedList = new LinkedList(11);
+//        linkedList.append(3);
+//        linkedList.append(23);
+//        linkedList.append(7);
+//
+//        linkedList.printList();
+//        linkedList.remove(2);
+//        linkedList.printList();
+
+        LinkedList linkedList = new LinkedList(1);
         linkedList.append(2);
+        linkedList.append(3);
+        linkedList.append(4);
 
         linkedList.printList();
-        System.out.println("Insert index 1 to 1: " + linkedList.insert(1,1) + "\n");
+        linkedList.revert();
         linkedList.printList();
 	}
 }
